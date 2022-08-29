@@ -1,0 +1,47 @@
+
+.header {
+  background-color: #6daf2e;
+  left: 0;
+  top:0px;
+  padding-top: 15px;
+  color: rgb(236, 220, 74);
+  text-align: center;
+  /* padding: 15px 0px 10px 10px; */
+  margin: 0;
+  height: 60px;
+  width: 100%;
+   position: fixed; 
+   /* z-index: 1;  */
+  overflow: auto;
+}
+.header h2 {
+  margin-left: 70px;
+  text-align: center;
+  font-size: 24px;
+  font-family: 'Times New Roman', Times, serif;
+}
+.flag{
+  padding: 0px;
+  float: right;
+  /* position: relative; */
+  /* display: inline-block; */
+  margin: 2px;
+  margin-right: 20px;
+  width: 3vw;
+  height: 4vh;
+}
+/* img.flag {
+  float:center;
+  display: block;
+} */
+
+  .clearfix::after {
+
+    content: "";
+    clear: both;
+    display: table;
+  }
+
+   
+  
+ 
